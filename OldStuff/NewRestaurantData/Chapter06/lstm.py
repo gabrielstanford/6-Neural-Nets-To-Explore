@@ -15,8 +15,8 @@ training_set, testing_set = imdb.load_data(num_words = 10000)
 X_train, y_train = training_set
 X_test, y_test = testing_set
 
-print("Number of training samples = {}".format(X_train.shape[0]))
-print("Number of testing samples = {}".format(X_test.shape[0]))
+"""print("Number of training samples = {}".format(X_train.shape[0]))
+print("Number of testing samples = {}".format(X_test.shape[0]))"""
 
 # Zero-Padding
 X_train_padded = sequence.pad_sequences(X_train, maxlen= 100)

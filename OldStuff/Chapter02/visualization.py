@@ -6,7 +6,8 @@ import seaborn as sns
 import warnings
 warnings.filterwarnings("ignore")
 
-df = pd.read_csv('diabetes.csv')
+#this script takes the data and visualizes it using matplotlib and seaborn. This is another very useful reference file for visualizing my data.
+df = pd.read_csv('Chapter02/diabetes.csv')
 
 # look at the first 5 rows of the dataset
 print(df.head())
